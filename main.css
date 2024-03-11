@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fff;
+}
+
+/*------------------------------HEADER----------------------------*/
+/*------------------------------HEADER----------------------------*/
+/*------------------------------HEADER----------------------------*/
+
+header{
+    background-color: #fb9d12;
+    
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;  
+}
+
+
+
+header h1{
+    color: #fff;
+    padding: 55px 15px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+}
+
+header .container ul li{
+    display: inline;
+    padding: 0 25px;
+    border-right: 1px solid #fff;
+    
+}
+
+header .container ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.2em;
+    scroll-behavior: smooth;
+    
+}
+
+header .container ul li a:hover{
+    color: #925e11;
+    transition: 0.2s;
+}
+
+
+
+/*---------------------------------------------MAIN---------------------*/
+/*---------------------------------------------MAIN---------------------*/
+/*---------------------------------------------MAIN---------------------*/
+/*---------------------------------------------MAIN---------------------*/
+
+main > section.container{
+    background-image: url(img/wave.svg);
+}
+
+main > section.container{
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+main > section.container{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+main > section.container img{
+    width: 50%;
+    padding: 32px;
+    margin: 220px 50px;
+}
+
+main > section.container div.quem-somos{
+    width: 30%;
+    margin-bottom: 100px;
+}
+
+main > section.container div.quem-somos h1{
+    font-size: 2.5em;
+    padding: 12px 0;
+    margin-bottom: 20px;
+    color: #fb9d12;
+}
+
+main > section.container div.quem-somos p{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+
+/*---- Aba Nosso Trabalho--*/
+
+section.nosso-trabalho{
+    display: flex;
+    padding: 80px 25px;
+}
+
+section.nosso-trabalho ol li{
+    padding: 15px 0;
+    font-weight: 300;
+}
+
+
+
+section.nosso-trabalho div.funcionamento-do-trab{
+    padding: 0 70px;
+}
+
+section.nosso-trabalho div.funcionamento-do-trab h1{
+    padding-bottom: 25px;
+    font-weight: 900;
+    color: #fb9d12;
+    font-size: 2.5em;
+}
+
+.titulo-lista{
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+/*----aba de contato --*/
+
+.contato{
+    background-image: url(img/wave2.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 250px 80px 100px 80px  ;
+    display: flex;
+    justify-content: space-between;  
+}
+.contato-list{
+    margin-left: 100px;
+}
+
+.contato-list h1{
+    padding: 0 0 50px 0;
+    color: #fb9d12;
+    font-size: 2.5em;
+    
+}
+
+.contato-list ul li{
+    text-transform: none;
+    display: inline;
+}
+
+.contato-list ul li a img{
+    height: 100px;
+    padding-right: 100px;
+    transition: 0.5s;
+}
+
+.contato-list ul li a img:hover{
+    height: 115px;
+    transition: 0.5s;
+}
+
+
+/*------------------------------------------ footer -----------------------------------*/
+/*------------------------------------------ footer -----------------------------------*/
+/*------------------------------------------ footer -----------------------------------*/
+/*------------------------------------------ footer -----------------------------------*/
+
+footer{
+    background-color: #fb9d12;
+}
+
+.b70{
+    width: 70%;
+    margin: 0 auto;
+}
+footer p{
+    width: 80%;
+    color: #fff;
+    font-weight: 300;
+    padding: 4px;
+}
+
+
+
